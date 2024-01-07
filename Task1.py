@@ -9,8 +9,8 @@ import random
 lst = ['robot'] * 10
 lst += ['human'] * 10
 random.shuffle(lst)
-df = pd.DataFrame(lst)
-print(df)
+# df = pd.DataFrame(lst)
+# print(df)
 
 data = pd.DataFrame({'whoAmI':lst})
 print(data.head())
